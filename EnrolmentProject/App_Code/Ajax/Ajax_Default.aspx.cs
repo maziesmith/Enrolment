@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace EnrolmentProject
+namespace EnrolmentProject.App_Code.Ajax
 {
-    public partial class Contact : Page
+    public partial class Ajax_Default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

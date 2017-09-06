@@ -13,11 +13,11 @@ namespace EnrolmentProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DbConnector connector = new DbConnector();
+            //DbConnector connector = new DbConnector();
 
-            DataTable dt = connector.SpTest("sijun");
+            //DataTable dt = connector.SpTest("sijun");
 
-            string str = dt.Rows[0].ToString();
+            //string str = dt.Rows[0].ToString();
         }
     }
 }

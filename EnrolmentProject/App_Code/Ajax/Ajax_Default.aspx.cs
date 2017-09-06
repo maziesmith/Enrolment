@@ -1,5 +1,7 @@
-﻿using System;
+﻿using EnrolmentProject.Module;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,7 +13,14 @@ namespace EnrolmentProject.App_Code.Ajax
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string id = Request["id"];
+            string pw = Request["pw"];
 
+            DbConnector connector = new DbConnector();
+
+            DataTable dt = connector.SpTest("sijun");
+
+            string str = dt.Rows[0].ToString();
         }
     }
 }

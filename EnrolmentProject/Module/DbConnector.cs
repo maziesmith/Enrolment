@@ -22,5 +22,16 @@ namespace EnrolmentProject.Module
 
             return SqlHelper.ExecuteDataset(connectionString, spName, arrPams).Tables[0];
         }
+
+        public DataTable SpSignIn(string id, string pw)
+        {
+            string spName = "spTest";
+
+            SqlParameter[] arrPams = new SqlParameter[1];
+            arrPams[0] = new SqlParameter("@Name", SqlDbType.NVarChar);
+            arrPams[0].Value = str;
+
+            return SqlHelper.ExecuteDataset(connectionString, spName, arrPams).Tables[0];
+        }
     }
 }

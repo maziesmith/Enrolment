@@ -185,6 +185,8 @@
     <Compile Include="App_Code\Ajax\Ajax_Default.aspx.designer.cs">
       <DependentUpon>Ajax_Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Module\DbConnector.cs" />
+    <Compile Include="Module\SqlHelper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>

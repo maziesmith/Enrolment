@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using EnrolmentProject.Module;
+using System.Data;
 
 namespace EnrolmentProject
 {
@@ -11,7 +13,11 @@ namespace EnrolmentProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            DbConnector connector = new DbConnector();
 
+            DataTable dt = connector.SpTest("sijun");
+
+            string str = dt.Rows[0].ToString();
         }
     }
 }

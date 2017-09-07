@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ajax_Default.aspx.cs" Inherits="EnrolmentProject.App_Code.Ajax.Ajax_Default" %>

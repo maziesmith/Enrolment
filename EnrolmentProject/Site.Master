@@ -40,6 +40,8 @@
             </Scripts>
         </asp:ScriptManager>
 
+        <script type="text/javascript" src="Scripts/WebForms/BeforeRendering.js"></script>
+
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">

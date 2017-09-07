@@ -128,7 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="App_Code\Ajax\Ajax_Default.aspx" />
+    <Content Include="Ajax\Ajax_Default.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -151,6 +151,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\BeforeRendering.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -180,13 +181,14 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\Ajax\Ajax_Default.aspx.cs">
+    <Compile Include="Ajax\Ajax_Default.aspx.cs">
       <DependentUpon>Ajax_Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="App_Code\Ajax\Ajax_Default.aspx.designer.cs">
+    <Compile Include="Ajax\Ajax_Default.aspx.designer.cs">
       <DependentUpon>Ajax_Default.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\CommonModule.cs" />
     <Compile Include="Module\DbConnector.cs" />
     <Compile Include="Module\SqlHelper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />

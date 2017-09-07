@@ -7,7 +7,7 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace EnrolmentProject.App_Code.Ajax {
+namespace EnrolmentProject.Ajax {
     
     
     public partial class Ajax_Default {

@@ -8,6 +8,5 @@
         <input id="DefaultPw" type="password" />
         <br />
         <input id="DefaultOk" value="확인" type="button">
-        <input id="DefaultSignUp" value="회원가입" type="button">
     </div>
 </asp:Content>

@@ -46,5 +46,16 @@ namespace EnrolmentProject.Module
 
             return SqlHelper.ExecuteDataset(connectionString, spName, arrPams).Tables[0];
         }
+
+        public DataTable SpGetClassList()
+        {
+            string spName = "spGetClassList";
+
+            SqlParameter[] arrPams = new SqlParameter[1];
+            arrPams[0] = new SqlParameter("@user_id", SqlDbType.NVarChar);
+            arrPams[0].Value = string.Empty;
+
+            return SqlHelper.ExecuteDataset(connectionString, spName, arrPams).Tables[0];
+        }
     }
 }
